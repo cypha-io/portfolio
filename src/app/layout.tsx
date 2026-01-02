@@ -17,13 +17,22 @@ import { Footer, Header, RouteGuard, Providers } from "@/components";
 import { baseURL, effects, fonts, style, dataStyle, home } from "@/resources";
 
 export async function generateMetadata() {
-  return Meta.generate({
+  const baseMeta = Meta.generate({
     title: home.title,
     description: home.description,
     baseURL: baseURL,
     path: home.path,
     image: home.image,
   });
+
+  return {
+    ...baseMeta,
+    icons: {
+      icon: '/images/avatar.jpg',
+      shortcut: '/images/avatar.jpg',
+      apple: '/images/avatar.jpg',
+    },
+  };
 }
 
 export default async function RootLayout({
