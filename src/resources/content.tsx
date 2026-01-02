@@ -2,20 +2,20 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Chamba",
+  lastName: "Nanang",
+  name: `Chamba Nanang`,
+  role: "Software Engineer and Techpreneur",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Africa/Accra", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
   display: true,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  description: <>My weekly newsletter about entrepreneurship, technology, and building successful startups</>,
 };
 
 const social: Social = [
@@ -65,18 +65,18 @@ const home: Home = {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">SwapGPA</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work/building-swapgpa-student-ecommerce-platform",
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Chamba, a software engineer and techpreneur, founder and CEO of <Text as="span" size="xl" weight="strong">SwapGPA</Text>, where I build innovative solutions. After hours, I continue to innovate and create.
 </>
   ),
 };
@@ -102,9 +102,8 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Chamba is a Ghana-based software engineer and techpreneur, founder and CEO of SwapGPA, with a passion for transforming complex challenges
+        into simple, elegant technological solutions. His work spans software development, entrepreneurship, and the convergence of technology and innovation.
       </>
     ),
   },
@@ -113,17 +112,15 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "SwapGPA",
+        timeframe: "2023 - Present",
+        role: "Founder & CEO",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Founded and lead SwapGPA, a tech startup focused on innovative solutions in education technology.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Developed and launched multiple software products, driving technological innovation and user engagement.
           </>,
         ],
         images: [
@@ -137,16 +134,15 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
+        company: "TechCorp",
         timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        role: "Software Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Developed scalable software solutions that improved system performance by 40%.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            Led development teams to launch innovative products, contributing to a 15% increase
             in overall company revenue.
           </>,
         ],
@@ -173,14 +169,22 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "E-commerce Development",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Building scalable e-commerce platforms with secure payment integration and real-time inventory management.</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "React",
+            icon: "react",
+          },
+          {
+            name: "Node.js",
+            icon: "nodejs",
+          },
+          {
+            name: "MongoDB",
+            icon: "mongodb",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -200,9 +204,9 @@ const about: About = {
         ],
       },
       {
-        title: "Next.js",
+        title: "Full-Stack Development",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Developing end-to-end web applications with modern tech stacks for SwapGPA's platform.</>
         ),
         tags: [
           {
@@ -214,8 +218,8 @@ const about: About = {
             icon: "nextjs",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "PostgreSQL",
+            icon: "postgresql",
           },
         ],
         // optional: leave the array empty if you don't want to display images

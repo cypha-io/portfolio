@@ -188,16 +188,16 @@ const mailchimp: MailchimpConfig = {
 const schema: SchemaConfig = {
   logo: "",
   type: "Organization",
-  name: "Once UI",
+  name: "SwapGPA",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "support@swapgpa.com",
 };
 
 // social links
 const sameAs: SameAsConfig = {
-  threads: "https://www.threads.com/@once_ui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
+  threads: "https://www.threads.com/@swapgpa.ug",
+  linkedin: "https://www.linkedin.com/company/swapgpa/",
+  discord: "https://whatsapp.com/channel/0029VbBmEIRHAdNNYBufvG0w",
 };
 
 // social sharing configuration for blog posts

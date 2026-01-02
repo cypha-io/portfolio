@@ -1,5 +1,4 @@
-import { Flex, Meta, Schema } from "@once-ui-system/core";
-import GalleryView from "@/components/gallery/GalleryView";
+import { Flex, Heading, Meta, Schema } from "@once-ui-system/core";
 import { baseURL, gallery, person } from "@/resources";
 
 export async function generateMetadata() {
@@ -28,7 +27,11 @@ export default function Gallery() {
           image: `${baseURL}${person.avatar}`,
         }}
       />
-      <GalleryView />
+      <Flex fillWidth horizontal="center" vertical="center" paddingY="xl">
+        <Heading variant="display-strong-xl" align="center">
+          Coming Soon
+        </Heading>
+      </Flex>
     </Flex>
   );
 }
