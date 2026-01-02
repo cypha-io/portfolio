@@ -7,9 +7,9 @@ const person: Person = {
   name: `Chamba Nanang`,
   role: "Software Engineer and Techpreneur",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  email: "cnanang@st.ug.edu.gh",
   location: "Africa/Accra", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -31,7 +31,7 @@ const social: Social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/chamba-nanang",
     essential: true,
   },
   {
@@ -102,8 +102,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Chamba is a Ghana-based software engineer and techpreneur, founder and CEO of SwapGPA, with a passion for transforming complex challenges
-        into simple, elegant technological solutions. His work spans software development, entrepreneurship, and the convergence of technology and innovation.
+        I'm a passionate and self-driven Full Stack Engineer with a strong background in web development, software engineering, and digital media. With several years of hands-on experience building and deploying scalable applications, I specialize in creating seamless user experiences from front to back, transforming complex ideas into functional, elegant solutions. Currently, I'm pursuing a Bachelor's degree in Computer Science at the University of Ghana while working as a Full Stack Developer at Sikano Ltd., where I contribute to developing innovative systems that improve performance and usability. My experience spans JavaScript (React, Node.js), Python, PHP, and cloud technologies, alongside a strong interest in UI/UX design and graphic media. I take pride in being a self-taught engineer who's constantly exploring new technologies, collaborating on impactful projects, and pushing the boundaries of what's possible in the tech space. My goal is to continue growing as a developer, mentor others, and build solutions that make a real difference.
       </>
     ),
   },
@@ -113,37 +112,92 @@ const about: About = {
     experiences: [
       {
         company: "SwapGPA",
-        timeframe: "2023 - Present",
-        role: "Founder & CEO",
+        timeframe: "November 2025 - Present",
+        role: "Chief Executive Officer",
         achievements: [
           <>
-            Founded and lead SwapGPA, a tech startup focused on innovative solutions in education technology.
+            Founded and lead SwapGPA, a student-focused e-commerce platform connecting students across campuses.
           </>,
           <>
-            Developed and launched multiple software products, driving technological innovation and user engagement.
+            Built and scaled a comprehensive marketplace for student goods and services.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            alt: "SwapGPA Project",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "TechCorp",
-        timeframe: "2018 - 2022",
-        role: "Software Engineer",
+        company: "Pollvite",
+        timeframe: "August 2024 - Present",
+        role: "Product Manager / Frontend Developer / Head of Sales Marketing",
         achievements: [
           <>
-            Developed scalable software solutions that improved system performance by 40%.
+            Led product development and marketing initiatives for a dynamic tech platform.
           </>,
           <>
-            Led development teams to launch innovative products, contributing to a 15% increase
-            in overall company revenue.
+            Developed frontend solutions and managed sales/marketing strategies to drive user growth.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Errand Technology",
+        timeframe: "October 2024 - Present",
+        role: "Co-Founder / Senior Software Engineer",
+        achievements: [
+          <>
+            Co-founded a technology company focused on innovative solutions.
+          </>,
+          <>
+            Led software engineering efforts and contributed to company growth and product development.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "The Perry Effect",
+        timeframe: "December 2021 - Present",
+        role: "Senior Software Engineer",
+        achievements: [
+          <>
+            Developed and maintained complex software systems for a media/entertainment company.
+          </>,
+          <>
+            Collaborated on projects that enhanced user experience and system performance.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Sikano Ltd.",
+        timeframe: "February 2025 - October 2025",
+        role: "Full Stack Engineer",
+        achievements: [
+          <>
+            Built full-stack applications improving system performance and usability.
+          </>,
+          <>
+            Worked with modern web technologies to deliver scalable solutions.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Effervetech Company Limited",
+        timeframe: "June 2022 - November 2025",
+        role: "Web Software Engineer",
+        achievements: [
+          <>
+            Developed web applications and software solutions for various clients.
+          </>,
+          <>
+            Contributed to projects that enhanced digital experiences and functionality.
           </>,
         ],
         images: [],
@@ -155,12 +209,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Ghana",
+        description: <>Bachelor of Science in Computer Science (January 2025 - June 2028)</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Our Lady of Grace Senior High School",
+        description: <>High School Diploma (April 2022 - September 2024)</>,
       },
     ],
   },
@@ -169,11 +223,15 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "E-commerce Development",
+        title: "Full-Stack JavaScript Development",
         description: (
-          <>Building scalable e-commerce platforms with secure payment integration and real-time inventory management.</>
+          <>Building scalable web applications using React, Node.js, and modern JavaScript frameworks.</>
         ),
         tags: [
+          {
+            name: "JavaScript",
+            icon: "javascript",
+          },
           {
             name: "React",
             icon: "react",
@@ -181,10 +239,6 @@ const about: About = {
           {
             name: "Node.js",
             icon: "nodejs",
-          },
-          {
-            name: "MongoDB",
-            icon: "mongodb",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -204,22 +258,22 @@ const about: About = {
         ],
       },
       {
-        title: "Full-Stack Development",
+        title: "Backend & Cloud Technologies",
         description: (
-          <>Developing end-to-end web applications with modern tech stacks for SwapGPA's platform.</>
+          <>Developing server-side applications with Python, PHP, and cloud technologies for robust solutions.</>
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "Python",
+            icon: "python",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "PHP",
+            icon: "php",
           },
           {
-            name: "PostgreSQL",
-            icon: "postgresql",
+            name: "AWS",
+            icon: "aws",
           },
         ],
         // optional: leave the array empty if you don't want to display images
