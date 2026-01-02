@@ -1,44 +1,43 @@
 ---
-title: "Automating Design Handovers with a Figma to Code Pipeline"
-publishedAt: "2024-04-01"
-summary: "Explore the enduring debate between using spaces and tabs for code indentation, and why this choice matters more than you might think."
+title: "Student Feedback Management System"
+publishedAt: "2025-09-10"
+summary: "A comprehensive feedback management platform designed for educational institutions to collect, analyze, and act on student feedback effectively."
 images:
   - "/images/projects/project-01/cover-02.jpg"
   - "/images/projects/project-01/image-03.jpg"
 team:
-  - name: "John Doe"
-    role: "Software Engineer"
+  - name: "Chamba Nanang"
+    role: "Lead Developer"
     avatar: "/images/avatar.jpg"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
-link: "https://once-ui.com/"
+    linkedIn: "https://www.linkedin.com/in/chamba-nanang"
 ---
 
 ## Overview
 
-In this project, I focused on automating the often tedious design handover process. The goal was to create a pipeline that converts Figma designs directly into clean, production-ready code. By integrating design tokens, component libraries, and automated workflows, this solution significantly reduced the time spent on translating design assets into code, while maintaining design consistency across the product.
+The Student Feedback Management System is a comprehensive platform built to revolutionize how educational institutions collect, analyze, and respond to student feedback. This project addresses the critical need for data-driven improvements in educational quality by providing institutions with actionable insights from student voices.
 
 ## Key Features
 
-- **Figma Plugin Integration**: Developed a custom Figma plugin that extracts design tokens such as colors, typography, and spacing values, and exports them in a format compatible with our codebase.
-- **Code Generation**: Integrated an automated process that translates Figma components into React code using a combination of design tokens and pre-built component templates. This allowed developers to focus more on logic and less on repetitive UI coding.
-- **Continuous Sync**: Established a CI/CD pipeline that continuously synchronizes design changes from Figma to the codebase, ensuring design updates are reflected instantly without manual intervention.
-- **Scalable Design System**: Leveraged a design system that remains the single source of truth for both designers and developers, making it easy to maintain consistency even as the product evolves.
+- **Multi-channel Feedback Collection**: Support for surveys, polls, direct feedback forms, and anonymous submissions.
+- **Advanced Analytics Dashboard**: Real-time visualization of feedback trends, sentiment analysis, and performance metrics.
+- **Automated Reporting**: Generate comprehensive reports for administrators, faculty, and stakeholders.
+- **Privacy & Security**: Enterprise-grade security with GDPR compliance and anonymous feedback options.
+- **Integration Capabilities**: RESTful APIs for integration with existing LMS and administrative systems.
 
 ## Technologies Used
 
-- **Figma API**: For extracting design tokens and component data directly from the Figma designs.
-- **React and Next.js**: For building the front-end codebase with clean, reusable components.
-- **Styled-Components**: For managing styles dynamically using design tokens.
-- **GitHub Actions**: For automating the pipeline and syncing design changes to the repository.
+- **Next.js**: Modern React framework for building the web application.
+- **TypeScript**: Type-safe development for robust and maintainable code.
+- **PostgreSQL**: Relational database for structured feedback data storage.
+- **Prisma ORM**: Database toolkit for type-safe database access.
+- **Chart.js/D3.js**: Data visualization libraries for analytics dashboards.
 
 ## Challenges and Learnings
 
-One of the biggest challenges was ensuring that the generated code was clean and maintainable. This involved setting up intelligent mapping between Figma components and React code structures, as well as managing edge cases like responsive design and conditional rendering. Additionally, the continuous synchronization required a robust error-handling system to prevent conflicts during development.
+Building a system that handles sensitive educational data required implementing robust security measures and ensuring compliance with data protection regulations. We developed a multi-layered approach to data privacy while maintaining system usability. The analytics engine presented complex challenges in processing natural language feedback and generating meaningful insights.
 
 ## Outcome
 
-The automated Figma to code pipeline has streamlined the handoff process, cutting down design-to-development time by 40%. Designers now have more confidence that their designs will be accurately translated into code, and developers can focus on more complex logic and feature development. This project has proven the value of automation in bridging the gap between design and development.
+The platform has been successfully implemented in several educational institutions, providing valuable insights that drive continuous improvement in educational quality. The system demonstrates the impact of technology in enhancing educational outcomes through data-driven decision making.
 
----
-
-This project demonstrates your ability to leverage automation and streamline workflows, which is highly relevant for design engineering portfolios focused on efficiency and innovation.
+**GitHub Repository**: [cypha-io/student-feedback](https://github.com/cypha-io/student-feedback)
